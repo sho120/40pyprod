@@ -17,6 +17,7 @@ def request_geo(road):
         y = json_data['response']['status']['point']['y']
         return x,y
     else:
+        #print("else")
         x = 0
         y = 0
         return x,y
